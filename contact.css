@@ -1,0 +1,98 @@
+/* Nav Bar */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Stencil Std, fantasy;
+}
+
+.nav {
+  background-color: #dda0dd;
+  background-color: ;
+  color: #ffffff;
+  list-style: none;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+  padding-right: 50px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #310a6c;
+}
+
+.nav li a:hover {
+  color: blueviolet;
+}
+
+/* Nav Bar Logo */
+.main-logo img {
+  width: 5%;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #dda0dd;
+  color: black;
+}
+
+.icons img {
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (south korea picture). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://i.postimg.cc/bwjy0rGz/south-korea-cherry-blososm.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* Forms */
+input {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  outline: none;
+  color: turquoise;
+}
+
+textarea {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  outline: none;
+  color: turquoise;
+}
