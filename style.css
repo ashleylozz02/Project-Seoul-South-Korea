@@ -87,3 +87,10 @@ a.active {
   background: none;
   color: #0082e6;
 }
+/* media queries */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
