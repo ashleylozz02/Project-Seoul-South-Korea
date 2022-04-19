@@ -96,3 +96,11 @@ textarea {
   outline: none;
   color: turquoise;
 }
+/* media queries */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
