@@ -105,3 +105,10 @@ section {
 h2 {
   text-align: center;
 }
+/* media queries */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
