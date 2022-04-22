@@ -94,7 +94,7 @@ a.active {
     width: 100%;
   }
 }
-@media (max-width: 925px) {
+@media (max-width: 900px) {
   label.logo {
     font-size: 30px;
     padding-left: 50px;
